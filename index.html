@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Fitness Gym</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand fs-3 fw-bold text-uppercase" href="#">Essential Fitness</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero d-flex align-items-center justify-content-center text-center text-white">
+        <div>
+            <h1 class="display-3 fw-bold">Train Hard. Stay Fit.</h1>
+            <p class="lead mt-3">A healthy body equals a strong mind.</p>
+            <a href="about.html" class="btn btn-light btn-lg mt-4">Explore More</a>
+        </div>
+    </section>
+
+    <section class="container text-center my-5">
+        <h2 class="fw-bold mb-4 text-white">Meet Our Trainers</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card profile-card">
+                    <img src="c:\Users\pc\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\878D5255F246AC543EB4D7104A8ABB78\WhatsApp Image 2025-10-30 at 08.20.17_98bdd158.jpg" class="card-img-top" alt="Trainer 1">
+                    <div class="card-body">
+                        <h4>Fareha Akhter</h4>
+                        <p>Certified Personal Trainer with 8 years of experience in muscle building & nutrition guidance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card profile-card">
+                    <img src="c:\Users\pc\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\7E6CF3F0D96826A32B9AE0F49F5D3780\WhatsApp Image 2025-10-30 at 08.23.04_20690c03.jpg" class="card-img-top" alt="Trainer 2">
+                    <div class="card-body">
+                        <h4>Etizaz Hassan shiekh</h4>
+                        <p>Yoga and wellness coach focusing on flexibility, breathing, and body balance training.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card profile-card">
+                    <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" class="card-img-top" alt="Trainer 3">
+                    <div class="card-body">
+                        <h4>John Davis</h4>
+                        <p>Strength and endurance expert dedicated to pushing you beyond your limits safely.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact text-center text-white py-5">
+        <div class="container">
+            <h2 class="fw-bold mb-4">Contact Us</h2>
+            <p class="mb-1 fs-5">📍 123 Fitness Street, Karachi, Pakistan</p>
+            <p class="mb-1 fs-5">📞 +92 300 1234567</p>
+            <p class="mb-3 fs-5">📧 info@essentialfitness.com</p>
+            <div class="social-icons">
+                <a href="#" class="me-3 text-white fs-4"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="me-3 text-white fs-4"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center text-white bg-dark">
+        <p class="mb-0">© 2025 Essential Fitness Gym | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.js"></script>
+    <script>
+        $(function(){
+            $(".nav-link").click(function(){
+                $(".nav-link").removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+</body>
+</html>

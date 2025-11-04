@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #360033, #0b8793);
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+.profile-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+.profile-card:hover {
+    transform: translateY(-8px);
+}
+
+.contact {
+    background: linear-gradient(to right, #232526, #414345);
+}
+
+.about-section {
+    min-height: 100vh;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 80px 0;
+}
+
+.social-icons a:hover {
+    color: #00e676;
+    transition: 0.3s;
+}
